@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ladrillos">
+
+    <TextView
+        android:id="@+id/txt_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Primer MC" />
+
+    <TextView
+        android:id="@+id/txt_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="375dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:text="Segundo MC"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_firstEasy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_first"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointsfm_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:textSize="20sp"
+        android:text="@string/_0" />
+
+    <TextView
+        android:id="@+id/txt_firstHard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_firstEasy"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointsfm_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:textSize="20sp"
+        android:text="@string/_0" />
+
+    <TextView
+        android:id="@+id/txt_firstThemes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_firstHard"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointsfm_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:textSize="20sp"
+        android:text="@string/_0" />
+
+    <TextView
+        android:id="@+id/txt_firstRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_firstThemes"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointsfm_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:textSize="20sp"
+        android:text="@string/_0" />
+
+    <TextView
+        android:id="@+id/txt_firstBlood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_firstRandom"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointsfm_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:textSize="20sp"
+        android:text="@string/_0" />
+
+    <TextView
+        android:id="@+id/txt_firstDeluxe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_firstBlood"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointsfm_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:textSize="20sp"
+        android:text="@string/_0" />
+
+    <TextView
+        android:id="@+id/txt_firstTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_firstDeluxe"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointsfm_dialog"
+        android:layout_marginTop="45dp"
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:text="@string/_0" />
+
+    <TextView
+        android:id="@+id/txt_winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_firstTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="Ganador: xxxxxxxxx"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnOk"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="696dp"
+        android:background="@color/colorAccent"
+        android:paddingStart="50dp"
+        android:layout_marginBottom="25dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="50dp"
+        android:paddingBottom="15dp"
+        android:text="OK"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_first"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/easy_mode" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView35"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/hard_mode" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/tematicas_total" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/random" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView38"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/sangre" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView39"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/deluxe" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView40"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_dialog"
+        android:layout_marginTop="45dp"
+        android:textSize="23sp"
+        android:textColor="#000"
+        android:text="@string/total" />
+
+    <TextView
+        android:id="@+id/txt_secondEasy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_second"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:text="@string/_0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_secondHard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_secondEasy"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:text="@string/_0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_secondThemes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_secondHard"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:text="@string/_0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_secondRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_secondThemes"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:text="@string/_0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_secondBlood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_secondRandom"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:text="@string/_0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_secondDeluxe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_secondBlood"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginTop="@dimen/dialog_top"
+        android:text="@string/_0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_secondTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_secondDeluxe"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginTop="45dp"
+        android:text="@string/_0"
+        android:textColor="#000"
+        android:textSize="22sp" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/fondorojo"/>
+    <item
+        android:drawable="@drawable/gallo"
+        android:width="170dp"
+        android:height="170dp"
+        android:gravity="center"
+        android:bottom="150dp"/>
+
+    <item
+        android:drawable="@drawable/votarfms"
+        android:gravity="bottom|center"
+        android:width="130dp"
+        android:height="130dp"
+        android:bottom="100dp"
+        />
+</layer-list>

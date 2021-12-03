@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="width_point">30dp</dimen>
+    <dimen name="height_point">36dp</dimen>
+    <dimen name="margin_top_point">14dp</dimen>
+    <dimen name="margin_between_points">32dp</dimen>
+    <dimen name="between_extra_points">35dp</dimen>
+    <dimen name="top_extra_points">20dp</dimen>
+    <dimen name="margin_between_checks">30dp</dimen>
+    <dimen name="top_modes">130dp</dimen>
+    <dimen name="top_firstmc_points">17dp</dimen>
+    <dimen name="top_secondmc_points">25dp</dimen>
+    <dimen name="between_totalmodes">29dp</dimen>
+    <dimen name="dialog_top">40dp</dimen>
+    <dimen name="start_dialog">15dp</dimen>
+    <dimen name="start_pointsfm_dialog">238dp</dimen>
+    <dimen name="start_pointssm_dialog">400dp</dimen>
+    <dimen name="margin_between_points_incremental_deluxe">17dp</dimen>
+
+
+    <dimen name="text_extra_points_tablet">21sp</dimen>
+    <dimen name="mcs_names_tablet">25sp</dimen>
+    <dimen name="top_texts_extra_points_tablet">94dp</dimen>
+    <dimen name="top_extra_points_tablet">26dp</dimen>
+    <dimen name="margin_top_point_tablet">22dp</dimen>
+    <dimen name="width_point_tablet">38dp</dimen>
+    <dimen name="height_point_tablet">46dp</dimen>
+    <dimen name="margin_between_points_tablet">36dp</dimen>
+    <dimen name="between_extra_points_tablet">45dp</dimen>
+    <dimen name="margin_between_checks_tablet">42dp</dimen>
+    <dimen name="text_size_points_tablet">18sp</dimen>
+    <dimen name="top_modes_tablet">150dp</dimen>
+    <dimen name="between_totalmodes_tablet">35dp</dimen>
+    <dimen name="top_firstmc_points_tablet">26dp</dimen>
+    <dimen name="top_secondmc_points_tablet">63dp</dimen>
+</resources>

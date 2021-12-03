@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eddd.votarfms">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".modes.ObjetosFinalMode"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".modes.SegundoRound"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".modes.IncrementalMode"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".tables.PeruTable"
+            android:parentActivityName=".tables.WatchTables" />
+        <activity
+            android:name=".tables.MexicoTable"
+            android:parentActivityName=".tables.WatchTables" />
+        <activity
+            android:name=".tables.SpainTable"
+            android:parentActivityName=".tables.WatchTables" />
+        <activity
+            android:name=".tables.ChileTable"
+            android:parentActivityName=".tables.WatchTables" />
+        <activity
+            android:name=".tables.ArgentinaTable"
+            android:parentActivityName=".tables.WatchTables" />
+        <activity android:name=".tables.WatchTables" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".modes.FinalResult"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".modes.Deluxe"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".modes.BloodMode2"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".modes.BloodMode"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".modes.RandomMode"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".modes.ThemesMode2"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".modes.ThemesMode"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".modes.HardMode"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".adapters.ListOfBattles"
+            android:label="Batallas Puntuadas"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modes.EasyMode"
+            android:label="Easy Mode"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3984939241340358~4212688543" />
+    </application>
+
+</manifest>

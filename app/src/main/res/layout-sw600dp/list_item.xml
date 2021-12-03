@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/firstMcItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="25dp"
+        android:text="Primer MC"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/secondMcItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="25dp"
+        android:text="Segundo MC"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/firstMcItemPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstMcItem"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/_0"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/secondMcItemPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondMcItem"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="470dp"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:text="@string/_0" />
+
+    <TextView
+        android:id="@+id/tv_winnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="Ganador: xxxxxxx" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        app:srcCompat="@drawable/fms_argentina" />
+</RelativeLayout>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ladrillos"
+    tools:context=".modes.RandomMode">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textito_firstMcRandom"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:text="Primer MC"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textito_secondMcRandom"
+        android:layout_below="@+id/et_fm1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Segundo MC"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+    <Button
+        android:id="@+id/et_fm1"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/textito_firstMcRandom"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:background="@color/buttonPoints"
+        android:ems="10"
+        android:textColor="#fff"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/et_fm2"
+        android:background="@color/buttonPoints"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:textColor="#fff"
+        android:layout_below="@+id/textito_firstMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_fm1"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_fm3"
+        android:background="@color/buttonPoints"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:textColor="#fff"
+        android:layout_below="@+id/textito_firstMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_fm2"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_fm4"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/textito_firstMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_fm3"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_fm5"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/textito_firstMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_fm4"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_fm6"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/textito_firstMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_fm5"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_sm1"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/textito_secondMcRandom"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_sm3"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/textito_secondMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_sm2"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_sm5"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/textito_secondMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_sm4"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_sm4"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/textito_secondMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_sm3"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_sm6"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/textito_secondMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_sm5"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_sm2"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/textito_secondMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_sm1"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+ <TextView
+     android:id="@+id/txt_scene"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginStart="530dp"
+     android:layout_marginTop="63dp"
+     android:text="@string/escena" />
+
+    <TextView
+        android:id="@+id/txt_flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="63dp"
+        android:layout_toEndOf="@+id/txt_scene"
+        android:text="@string/flow" />
+
+    <TextView
+        android:id="@+id/txt_skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="63dp"
+        android:layout_toEndOf="@+id/txt_flow"
+        android:text="@string/skills" />
+
+    <Button
+        android:id="@+id/et_fmScene"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/txt_scene"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/et_fm8"
+        android:background="@color/buttonPoints"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/et_fmFlow"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/txt_flow"
+        android:layout_marginStart="@dimen/between_extra_points"
+        android:layout_marginTop="@dimen/top_extra_points"
+        android:layout_toEndOf="@+id/et_fmScene"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_fmSkills"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/txt_skills"
+        android:layout_marginStart="@dimen/between_extra_points"
+        android:layout_marginTop="@dimen/top_extra_points"
+        android:layout_toEndOf="@+id/et_fmFlow"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+ <TextView
+     android:id="@+id/txt_scene2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/et_fmScene"
+     android:layout_alignParentStart="true"
+     android:layout_marginStart="530dp"
+     android:layout_marginTop="40dp"
+     android:text="@string/escena" />
+
+    <TextView
+        android:id="@+id/txt_flow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fmFlow"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/txt_scene2"
+        android:text="@string/flow" />
+
+    <TextView
+        android:id="@+id/txt_skills2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fmSkills"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/txt_flow2"
+        android:text="@string/skills" />
+
+    <Button
+        android:id="@+id/et_smScene"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/txt_scene2"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="@dimen/top_extra_points"
+        android:layout_toEndOf="@+id/et_sm8"
+        android:background="@color/buttonPoints"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/et_smFlow"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/txt_flow2"
+        android:layout_marginStart="@dimen/between_extra_points"
+        android:layout_marginTop="@dimen/top_extra_points"
+        android:layout_toEndOf="@+id/et_smScene"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_smSkills"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/txt_skills2"
+        android:layout_marginStart="@dimen/between_extra_points"
+        android:layout_marginTop="@dimen/top_extra_points"
+        android:layout_toEndOf="@+id/et_smFlow"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_nextRound"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_smFlow"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="45dp"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="15dp"
+        android:text="@string/siguiente_ronda"
+        android:textColor="#fff"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="17dp"
+        android:textSize="16sp"
+        android:text="@string/random_mode" />
+
+    <Button
+        android:id="@+id/et_fm7"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:layout_below="@+id/textito_firstMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_fm6"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_fm8"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_below="@+id/textito_firstMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_fm7"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_sm7"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_below="@+id/textito_secondMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_sm6"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/et_sm8"
+        android:layout_width="@dimen/width_point"
+        android:layout_height="@dimen/height_point"
+        android:background="@color/buttonPoints"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_below="@+id/textito_secondMcRandom"
+        android:layout_marginStart="@dimen/margin_between_points"
+        android:layout_marginTop="@dimen/margin_top_point"
+        android:layout_toEndOf="@+id/et_sm7"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3984939241340358/6443868700">
+
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

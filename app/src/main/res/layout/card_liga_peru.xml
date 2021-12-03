@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_positionPeru"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textSize="18sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="bottom"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:id="@+id/tv_mcNamePeru"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Nombre MC"
+            android:maxLines="1"
+            android:textColor="#000"
+            android:textSize="21sp"
+            android:layout_marginStart="5dp" />
+
+        <TextView
+            android:id="@+id/tv_pointsPeru"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0"
+            android:layout_marginStart="15dp"
+            android:textAlignment="center"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_punctuationPeru"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1000"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:layout_marginStart="40dp"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
