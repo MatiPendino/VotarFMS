@@ -2,7 +2,6 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="@drawable/ladrillos"
     android:layout_height="match_parent">
 
     <TextView
@@ -31,7 +30,8 @@
 
     <TextView
         android:id="@+id/txt_firstEasy"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_first"
         android:layout_alignParentStart="true"
@@ -41,7 +41,8 @@
 
     <TextView
         android:id="@+id/txt_firstHard"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_firstEasy"
         android:layout_alignParentStart="true"
@@ -51,7 +52,8 @@
 
     <TextView
         android:id="@+id/txt_firstThemes"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_firstHard"
         android:layout_alignParentStart="true"
@@ -61,7 +63,8 @@
 
     <TextView
         android:id="@+id/txt_firstRandom"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_firstThemes"
         android:layout_alignParentStart="true"
@@ -71,7 +74,8 @@
 
     <TextView
         android:id="@+id/txt_firstBlood"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_firstRandom"
         android:layout_alignParentStart="true"
@@ -81,7 +85,8 @@
 
     <TextView
         android:id="@+id/txt_firstDeluxe"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_firstBlood"
         android:layout_alignParentStart="true"
@@ -91,7 +96,8 @@
 
     <TextView
         android:id="@+id/txt_firstTotal"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_firstDeluxe"
         android:layout_alignParentStart="true"
@@ -103,7 +109,8 @@
 
     <TextView
         android:id="@+id/txt_winner"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_firstTotal"
         android:layout_centerHorizontal="true"
@@ -200,73 +207,81 @@
 
     <TextView
         android:id="@+id/txt_secondEasy"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_second"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginStart="80dp"
         android:layout_marginTop="@dimen/dialog_top"
-        android:text="@string/_0" />
+        android:layout_toEndOf="@+id/txt_firstEasy"
+
+        android:text="@string/_0"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/txt_secondHard"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_secondEasy"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginStart="80dp"
         android:layout_marginTop="@dimen/dialog_top"
-        android:text="@string/_0" />
+        android:layout_toEndOf="@+id/txt_firstHard"
+        android:text="@string/_0"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/txt_secondThemes"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_secondHard"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginStart="80dp"
         android:layout_marginTop="@dimen/dialog_top"
-        android:text="@string/_0" />
+        android:layout_toEndOf="@+id/txt_firstThemes"
+        android:text="@string/_0"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/txt_secondRandom"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_secondThemes"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginStart="80dp"
         android:layout_marginTop="@dimen/dialog_top"
-        android:text="@string/_0" />
+        android:layout_toEndOf="@+id/txt_firstRandom"
+        android:text="@string/_0"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/txt_secondBlood"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_secondRandom"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginStart="80dp"
         android:layout_marginTop="@dimen/dialog_top"
-        android:text="@string/_0" />
+        android:layout_toEndOf="@+id/txt_firstBlood"
+        android:text="@string/_0"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/txt_secondDeluxe"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_secondBlood"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginStart="80dp"
         android:layout_marginTop="@dimen/dialog_top"
-        android:text="@string/_0" />
+        android:layout_toEndOf="@+id/txt_firstDeluxe"
+        android:text="@string/_0"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/txt_secondTotal"
-        android:layout_width="wrap_content"
+        android:layout_width="35dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_secondDeluxe"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="@dimen/start_pointssm_dialog"
+        android:layout_marginStart="80dp"
         android:layout_marginTop="45dp"
-        android:textSize="15sp"
+        android:layout_toEndOf="@+id/txt_firstTotal"
+        android:text="@string/_0"
+        android:textAlignment="center"
         android:textColor="#000"
-        android:text="@string/_0" />
+        android:textSize="15sp" />
 </RelativeLayout>

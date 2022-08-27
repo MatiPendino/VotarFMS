@@ -116,149 +116,164 @@
 
     <TextView
         android:id="@+id/tv_firstEasy"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textEasy"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="170dp"
+        android:layout_marginStart="163dp"
         android:layout_marginTop="@dimen/top_firstmc_points"
         android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_firstEasy"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="170dp"
+        android:layout_marginStart="163dp"
         android:layout_marginTop="@dimen/top_secondmc_points"
         android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textHard"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="265dp"
+        android:layout_marginStart="261dp"
         android:layout_marginTop="@dimen/top_firstmc_points"
         android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textThemes"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="356dp"
+        android:layout_marginStart="348dp"
         android:layout_marginTop="@dimen/top_firstmc_points"
         android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textRandom"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="435dp"
+        android:layout_marginStart="425dp"
         android:layout_marginTop="@dimen/top_firstmc_points"
         android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textBlood"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="514dp"
+        android:layout_marginStart="502dp"
         android:layout_marginTop="@dimen/top_firstmc_points"
         android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textDeluxe"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="593dp"
+        android:layout_marginStart="575dp"
         android:layout_marginTop="@dimen/top_firstmc_points"
         android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textView21"
-        android:layout_width="wrap_content"
+        android:layout_width="30dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView13"
+        android:textAlignment="center"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="662dp"
+        android:layout_marginStart="640dp"
         android:layout_marginTop="@dimen/top_firstmc_points"
         android:text="@string/_0"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView16"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="265dp"
+        android:layout_marginStart="261dp"
         android:layout_marginTop="@dimen/top_secondmc_points"
         android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textView23"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView17"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="356dp"
+        android:layout_marginStart="348dp"
         android:layout_marginTop="@dimen/top_secondmc_points"
         android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textView24"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView18"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="436dp"
+        android:layout_marginStart="425dp"
         android:layout_marginTop="@dimen/top_secondmc_points"
         android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textView25"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView19"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="514dp"
+        android:layout_marginStart="502dp"
         android:layout_marginTop="@dimen/top_secondmc_points"
         android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textView26"
-        android:layout_width="wrap_content"
+        android:layout_width="25dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView20"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="593dp"
+        android:layout_marginStart="575dp"
         android:layout_marginTop="@dimen/top_secondmc_points"
         android:text="@string/_0" />
 
     <TextView
         android:id="@+id/textView27"
-        android:layout_width="wrap_content"
+        android:layout_width="30dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView21"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="662dp"
+        android:layout_marginStart="640dp"
+        android:textAlignment="center"
         android:layout_marginTop="@dimen/top_secondmc_points"
         android:text="@string/_0"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView28"
-        android:layout_width="wrap_content"
+        android:layout_width="180dp"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"

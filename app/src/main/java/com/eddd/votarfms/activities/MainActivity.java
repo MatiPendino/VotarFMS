@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
     private Batalla mBattle;
 
-    private AdView mAdView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mAdView = findViewById(R.id.adView);
+        AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
     }
@@ -79,7 +77,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void removeAds(View view){
 
+        Uri uri = Uri.parse("https://play.google.com/store/apps/details?id=com.matraxstudios.votarfms_noads");
 
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
     }
 
 

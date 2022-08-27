@@ -49,8 +49,8 @@ public class DialogNewVotation extends DialogFragment {
         btn_vote.setVisibility(View.INVISIBLE);
 
         //creo el Array para las ligas, y creo un adapter para colocar ese array en el spinner
-        String[] optionsLeagues = {"Todas", "FMS Argentina", "FMS Chile", "FMS España", "FMS México", "FMS Perú", "Inter Clasificatoria",
-        "Inter Octavos", "Inter Cuartos", "Inter Semis", "Inter Final"};
+        String[] optionsLeagues = {"Todas", "FMS Argentina", "FMS Chile", "FMS Colombia", "FMS España", "FMS México", "FMS Perú",
+                "Inter Clasificatoria", "Inter Octavos", "Inter Cuartos", "Inter Semis", "Inter Final"};
         ArrayAdapter<String> adapterLeagues = new ArrayAdapter<>(getActivity().getApplicationContext(),
                 android.R.layout.simple_spinner_dropdown_item, optionsLeagues);
         spinnerLeague.setAdapter(adapterLeagues);
@@ -75,15 +75,15 @@ public class DialogNewVotation extends DialogFragment {
 
                 //asigno a los otros dos spinners los MCs según la liga escogida
                 if (leagueSelected.equals("Todas")){
-                    String[] fmsTodasMcs= {"Acertijo", "Aczino","Anubis", "Arkano", "Blon", "Bnet","BTA", "B.One", "Cacha", "Choque",
-                            "Chuty", "Dani", "Dante", "Diego MC", "Drose", "Dtoke", "Elekipo", "El Menor", "Enzo", "Errecé", "Erreka",
-                            "Esezeta", "Force", "Garza", "Gazir", "Hander", "Invert", "Jack","Jair Wong", "Jaze", "Jony B", "Jokker",
-                            "Joquer", "Jota", "Kaiser", "Khan", "Klan","Lancer Lirical", "Larrix", "Litzen",
-                            "Lobo Estepario", "Mcklopedia", "Mecha", "MKS", "Mnak", "Mr. Ego", "Nacho", "Naista",
-                            "Nekroos", "New Era", "Nitro", "Papo", "Pepe Grillo",
-                            "Potencia","Ramses", "RC", "Replik", "Ricto", "Rodamiento", "Sara Socas", "Skill", "Skiper", "Skone","Stick",
-                            "Stigma", "Strike", "Stuart", "SUB", "SweetPain", "Teorema", "Tirpa", "Tom Crawley",
-                            "Trueno", "Walls", "Wolf", "Wos", "Yoiker", "Zaina", "Zasko", "Zika", "Zticma"};
+                    String[] fmsTodasMcs= {"Acertijo", "Aczino","Airon", "Anubis","Basek", "Arkano", "Big Killah", "Blon","Black Code", "Bnet","BTA",
+                            "B.One", "Cacha", "Carpediem", "Chang", "Choque", "Chuty", "Dani", "Dante", "Diego MC", "Drose", "Dtoke", "Elekipo",
+                            "Elevn",  "El Menor", "Enzo", "Errecé", "Erreka", "Esezeta", "Filósofo", "Force", "Garza", "Gaviria", "Gazir", "Ghost",
+                            "Hander", "Invert", "Jack","Jair Wong", "Jaze", "JNO", "Jony B", "Jokker", "Joquer", "Jota", "Kaiser", "Katra", "Khan",
+                            "KIAN", "Klan","Lancer Lirical", "Larrix", "Letra", "Litzen", "Lobo Estepario", "Lokillo", "Mcklopedia", "Mecha",
+                            "Metalinguistica", "MKS", "Mnak","MP", "Mr. Ego", "Nacho", "Naista", "Nekroos", "New Era", "Nitro", "ÑKO", "Papo", "Pepe Grillo",
+                            "Potencia","Ramses", "RBN", "RC", "Replik", "Ricto", "Rodamiento", "Sara Socas", "Skill", "Skiper", "Skone","Stick",
+                            "Stigma", "Strike", "Stuart", "SUB", "SweetPain", "Tata", "Teorema", "Tirpa", "Tom Crawley",
+                            "Trueno", "Vijay Kesh", "Walls", "Wolf", "Wos", "Yoiker", "Zaina", "Zasko", "Zika", "Zticma"};
 
                     ArrayAdapter<String> adapterAll = new ArrayAdapter<>(getActivity().getApplicationContext(),
                     android.R.layout.simple_spinner_dropdown_item, fmsTodasMcs);
@@ -96,8 +96,8 @@ public class DialogNewVotation extends DialogFragment {
                 }
                 if (leagueSelected.equals("FMS Argentina")){
 
-                    String[] fmsArgentinaMcs = {"Cacha", "Dani", "Dtoke", "Klan", "Larrix", "Mecha", "MKS",
-                            "Nacho","Naista", "Papo", "Replik", "Stuart", "SUB", "Trueno", "Wolf", "Wos", "Zaina"};
+                    String[] fmsArgentinaMcs = {"Cacha", "Dani", "Dtoke","Katra", "Klan", "Larrix", "Mecha", "MKS", "MP",
+                            "Nacho","Naista", "Papo", "Replik", "Stuart", "SUB", "Tata", "Trueno", "Wolf", "Wos", "Zaina"};
                     ArrayAdapter<String> adapterArg = new ArrayAdapter<>(getActivity().getApplicationContext(),
                             android.R.layout.simple_spinner_dropdown_item, fmsArgentinaMcs);
 
@@ -114,8 +114,8 @@ public class DialogNewVotation extends DialogFragment {
                     spinnerOne.setEnabled(true);
                     spinnerTwo.setEnabled(true);
 
-                    String[] fmsChileMcs = {"Acertijo", "Anubis", "Drose", "El Menor", "Erreka", "Esezeta", "Jokker", "Joquer",
-                            "Kaiser", "Nitro", "Pepe Grillo", "Ricto", "Rodamiento", "Stigma", "Teorema", "Tom Crawley"};
+                    String[] fmsChileMcs = {"Acertijo", "Anubis", "Basek", "Drose", "El Menor", "Erreka", "Esezeta", "JNO", "Jokker", "Joquer",
+                            "Kaiser", "Metalinguistica", "Nitro", "Pepe Grillo", "Ricto", "Rodamiento", "Stigma", "Teorema", "Tom Crawley"};
                     ArrayAdapter<String> adapterChile = new ArrayAdapter<>(getActivity().getApplicationContext(),
                             android.R.layout.simple_spinner_dropdown_item, fmsChileMcs);
                     spinnerOne.setAdapter(adapterChile);
@@ -163,13 +163,24 @@ public class DialogNewVotation extends DialogFragment {
                     spinnerOne.setEnabled(true);
                     spinnerTwo.setEnabled(true);
 
-                    String[] fmsPeruMcs = {"Choque", "Diego MC", "Enzo", "Jair Wong", "Jaze", "Jota", "Litzen","Nekroos", "New Era",
-                            "Ramses", "Skill", "Stick", "Strike", "Zika"};
+                    String[] fmsPeruMcs = {"Black Code", "Choque", "Diego MC", "Enzo", "Ghost", "Jair Wong", "Jaze", "Jota", "KIAN", "Litzen","Nekroos", "New Era",
+                            "Ramses", "Skill", "Stick", "Strike", "Vijay Kesh", "Zika"};
                     ArrayAdapter<String> adapterPeru = new ArrayAdapter<>(getActivity().getApplicationContext(),
                             android.R.layout.simple_spinner_dropdown_item, fmsPeruMcs);
 
                     spinnerOne.setAdapter(adapterPeru);
                     spinnerTwo.setAdapter(adapterPeru);
+                }
+                if (leagueSelected.equals("FMS Colombia")){
+                    spinnerOne.setEnabled(true);
+                    spinnerTwo.setEnabled(true);
+
+                    String[] fmsColombiaMcs = {"Airon", "Big Killah", "Carpediem", "Chang", "Elevn","Filósofo", "Gaviria", "Letra",
+                            "Lokillo", "ÑKO", "RBN", "Valles T"};
+                    ArrayAdapter<String> adapterColombia = new ArrayAdapter<>(getActivity().getApplicationContext(),
+                            android.R.layout.simple_spinner_dropdown_item, fmsColombiaMcs);
+                    spinnerOne.setAdapter(adapterColombia);
+                    spinnerTwo.setAdapter(adapterColombia);
                 }
 
                 //Internacional
@@ -245,7 +256,8 @@ public class DialogNewVotation extends DialogFragment {
                     leagueSelected = spinnerLeague.getSelectedItem().toString();
 
                     if(leagueSelected.equals("FMS Argentina") || leagueSelected.equals("FMS España") || leagueSelected.equals("FMS Perú") ||
-                    leagueSelected.equals("FMS México") || leagueSelected.equals("FMS Chile") || leagueSelected.equals("Todas")){
+                    leagueSelected.equals("FMS México") || leagueSelected.equals("FMS Chile") || leagueSelected.equals("FMS Colombia") ||
+                            leagueSelected.equals("Todas")){
                         Intent intent = new Intent(getContext(), EasyMode.class);
                         startActivity(intent);
                     } else if (leagueSelected.equals("Inter Clasificatoria")){

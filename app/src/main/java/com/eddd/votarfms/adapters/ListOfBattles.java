@@ -220,6 +220,8 @@ public class ListOfBattles extends AppCompatActivity {
                     iv_league.setImageResource(R.drawable.fms_mexico);
                 } else if (currentBattle.getLeague().equals("FMS Perú")){
                     iv_league.setImageResource(R.drawable.fms_peru);
+                } else if(currentBattle.getLeague().equals("FMS Colombia")){
+                    iv_league.setImageResource(R.drawable.pepe);
                 }
            // }
 

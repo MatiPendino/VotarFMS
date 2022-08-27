@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    tools:context=".tables.ChileTable">
+    tools:context=".tables.ColombiaTable">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,8 +15,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="FMS CHILE"
-            android:textColor="#EE0808"
+            android:text="FMS COLOMBIA"
+            android:textColor="#D09E13"
             android:textStyle="bold"
             android:textSize="30sp"
             android:layout_marginStart="10dp" />
@@ -61,7 +61,7 @@
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerViewChile"
+            android:id="@+id/recyclerViewColombia"
             android:layout_marginBottom="70dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -77,7 +77,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="660dp"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-3984939241340358/4030631814">
+        app:adUnitId="ca-app-pub-3984939241340358/5004395572">
 
     </com.google.android.gms.ads.AdView>
 

@@ -609,7 +609,7 @@ public class RandomMode extends Activity {
 
                     if(leagueSelected.equals("FMS Argentina") || leagueSelected.equals("FMS España") || leagueSelected.equals("FMS Perú") ||
                             leagueSelected.equals("FMS México") || leagueSelected.equals("FMS Chile") || leagueSelected.equals("Todas")
-                    || leagueSelected.equals("Inter Semis")){
+                    || leagueSelected.equals("Inter Semis") || leagueSelected.equals("FMS Colombia")){
                         Intent intent = new Intent(getApplicationContext(), BloodMode.class);
                         startActivity(intent);
                     } else if(leagueSelected.equals("Inter Cuartos")){

@@ -51,4 +51,9 @@ public class WatchTables extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void seeColombia(View view){
+        Intent intent = new Intent(this, ColombiaTable.class);
+        startActivity(intent);
+    }
+
 }

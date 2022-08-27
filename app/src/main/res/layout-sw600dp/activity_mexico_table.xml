@@ -75,7 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="760dp"
+        android:layout_marginTop="860dp"
         app:adSize="BANNER"
         app:adUnitId="ca-app-pub-3984939241340358/8419295359">
 

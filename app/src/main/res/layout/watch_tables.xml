@@ -69,8 +69,20 @@
         android:layout_width="140dp"
         android:layout_height="150dp"
         android:layout_below="@+id/iv_mex"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="38dp"
         android:layout_marginTop="60dp"
         android:onClick="seePeru"
         app:srcCompat="@drawable/fms_peru" />
+
+    <ImageView
+        android:id="@+id/iv_colombia"
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/iv_mex"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="56dp"
+        android:layout_toEndOf="@+id/iv_peru"
+        android:onClick="seeColombia"
+        app:srcCompat="@drawable/pepe" />
 </RelativeLayout>

@@ -541,7 +541,8 @@ public class EasyMode extends Activity {
                             + pointsSm5 + pointsSm6 + pointsSmScene + pointsSmFlow + pointsSmSkills;
 
                     if(leagueSelected.equals("FMS Argentina") || leagueSelected.equals("FMS España") || leagueSelected.equals("FMS Perú") ||
-                            leagueSelected.equals("FMS México") || leagueSelected.equals("FMS Chile") || leagueSelected.equals("Todas")){
+                            leagueSelected.equals("FMS México") || leagueSelected.equals("FMS Chile") || leagueSelected.equals("Todas")
+                    || leagueSelected.equals("FMS Colombia")){
                         Intent intent = new Intent(getApplicationContext(), HardMode.class);
                         startActivity(intent);
                     } else if(leagueSelected.equals("Inter Octavos")){

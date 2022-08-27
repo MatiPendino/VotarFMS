@@ -124,7 +124,8 @@ public class FinalResult extends Activity {
             public void onClick(View v) {
 
                 if(leagueSelected.equals("FMS Argentina") || leagueSelected.equals("FMS España") || leagueSelected.equals("FMS Perú") ||
-                leagueSelected.equals("Todas") || leagueSelected.equals("FMS Chile") || leagueSelected.equals("FMS México")){
+                leagueSelected.equals("Todas") || leagueSelected.equals("FMS Chile") || leagueSelected.equals("FMS México") ||
+                        leagueSelected.equals("FMS Colombia")){
                     Toast.makeText(getApplicationContext(), "Puntuación guardada correctamente", Toast.LENGTH_SHORT).show();
 
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
@@ -188,7 +189,7 @@ public class FinalResult extends Activity {
         tvSecondMc.setText(secondMc);
 
         if(leagueSelected.equals("FMS Argentina") || leagueSelected.equals("FMS España") || leagueSelected.equals("FMS Perú") || leagueSelected.equals("FMS México")
-        || leagueSelected.equals("FMS Chile") || leagueSelected.equals("Todas")){
+        || leagueSelected.equals("FMS Chile") || leagueSelected.equals("Todas") || leagueSelected.equals("FMS Colombia")){
             fmEasy.setText(String.valueOf(pointsFirstEasy));
             fmHard.setText(String.valueOf(pointsFirstHard));
             fmThemes.setText(String.valueOf(totalFirstThemes));
@@ -310,7 +311,8 @@ public class FinalResult extends Activity {
     public void decideWinner(){
 
         if(leagueSelected.equals("FMS Argentina") || leagueSelected.equals("FMS España") || leagueSelected.equals("FMS Perú") || leagueSelected.equals("FMS México")
-                || leagueSelected.equals("FMS Chile") || leagueSelected.equals("Todas") || leagueSelected.equals("Inter Final")){
+                || leagueSelected.equals("FMS Chile") || leagueSelected.equals("Todas") || leagueSelected.equals("Inter Final") ||
+        leagueSelected.equals("FMS Colombia")){
             if (finalResultFirst > finalResultSecond+5){
                 tv_winner.setText("Ganador: " + firstMc);
                 winner = firstMc;

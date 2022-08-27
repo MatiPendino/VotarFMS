@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.eddd.votarfms.R;
-import com.eddd.votarfms.models.ChileMC;
+import com.eddd.votarfms.models.ColombiaMC;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 
-public class ChileLeagueAdapter extends FirestoreRecyclerAdapter<ChileMC, ChileLeagueAdapter.ViewHolder> {
+public class ColombiaLeagueAdapter extends FirestoreRecyclerAdapter<ColombiaMC, ColombiaLeagueAdapter.ViewHolder> {
 
 
     /**
@@ -22,12 +22,12 @@ public class ChileLeagueAdapter extends FirestoreRecyclerAdapter<ChileMC, ChileL
      *
      * @param options
      */
-    public ChileLeagueAdapter(@NonNull FirestoreRecyclerOptions<ChileMC> options) {
+    public ColombiaLeagueAdapter(@NonNull FirestoreRecyclerOptions<ColombiaMC> options) {
         super(options);
     }
 
     @Override
-    protected void onBindViewHolder(@NonNull ViewHolder holder, int position, @NonNull ChileMC model) {
+    protected void onBindViewHolder(@NonNull ViewHolder holder, int position, @NonNull ColombiaMC model) {
 
         holder.tv_name.setText(model.getName());
         holder.tv_position.setText(String.valueOf(model.getPosition()));
@@ -39,7 +39,7 @@ public class ChileLeagueAdapter extends FirestoreRecyclerAdapter<ChileMC, ChileL
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_liga_chile, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_liga_colombia, parent, false);
 
         return new ViewHolder(view);
     }
@@ -51,10 +51,10 @@ public class ChileLeagueAdapter extends FirestoreRecyclerAdapter<ChileMC, ChileL
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            tv_name = itemView.findViewById(R.id.tv_mcNameChile);
-            tv_position = itemView.findViewById(R.id.tv_positionChile);
-            tv_points = itemView.findViewById(R.id.tv_pointsChile);
-            tv_punctuation = itemView.findViewById(R.id.tv_punctuationChile);
+            tv_name = itemView.findViewById(R.id.tv_mcNameColombia);
+            tv_position = itemView.findViewById(R.id.tv_positionColombia);
+            tv_points = itemView.findViewById(R.id.tv_pointsColombia);
+            tv_punctuation = itemView.findViewById(R.id.tv_punctuationColombia);
         }
 
     }

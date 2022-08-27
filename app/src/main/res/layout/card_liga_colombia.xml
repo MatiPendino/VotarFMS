@@ -16,7 +16,7 @@
         >
 
         <TextView
-            android:id="@+id/tv_positionChile"
+            android:id="@+id/tv_positionColombia"
             android:layout_width="22dp"
             android:layout_height="match_parent"
             android:text="1"
@@ -27,7 +27,7 @@
             android:layout_marginBottom="2dp" />
 
         <TextView
-            android:id="@+id/tv_mcNameChile"
+            android:id="@+id/tv_mcNameColombia"
             android:layout_width="150dp"
             android:layout_height="match_parent"
             android:text="Nombre MC"
@@ -37,7 +37,7 @@
             android:layout_marginStart="5dp" />
 
         <TextView
-            android:id="@+id/tv_pointsChile"
+            android:id="@+id/tv_pointsColombia"
             android:layout_width="30dp"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -48,7 +48,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tv_punctuationChile"
+            android:id="@+id/tv_punctuationColombia"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="1000"
@@ -58,6 +58,5 @@
             android:maxLines="1"/>
 
     </LinearLayout>
-
 
 </FrameLayout>
